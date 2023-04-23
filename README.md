@@ -1,4 +1,4 @@
-# Implementing-XX-SIngle-Step-Parity-Check-Gate-on-Silicon-Spin-System
+# Implementing-XX-Single-Step-Parity-Check-Gate-on-Silicon-Spin-System
 
 This repository contains the codes written for the research paper entitled "Single-Step Parity Check Gate for Quantum Error Correction." 
 We selected the 2P1e system (two Phosphorus nuclei and one shared electron between them) to implement this gate, as silicon spin systems have the 
