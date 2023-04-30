@@ -25,8 +25,8 @@ nSpins = 3
 p0 = qeye(2)
 B0=1.33#tesla
 B1=1e-4
-gamma_E=-27.97e9*2*np.pi#GHz/tesla
-gamma_n=17.23e6*2*np.pi#GHz/tesla
+gamma_E=-27.97e9*2*np.pi #Hz/tesla
+gamma_n=17.23e6*2*np.pi  #Hz/tesla
 A_1 = 95e6*2*np.pi
 A_2 = 9e6*2*np.pi
 
