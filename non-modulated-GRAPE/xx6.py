@@ -182,7 +182,7 @@ print("Completed in {} HH:MM:SS.US".        format(datetime.timedelta(seconds=re
 print("***********************************")
 
 
-# We pickel the result and save everything into a dill file.
+# We pickle the result and save everything into a dill file.
 
 #dill.dump(result,open('/home/561/gu2385/scripts/results/xx6.dill', 'wb'))#load wb->rb
 
