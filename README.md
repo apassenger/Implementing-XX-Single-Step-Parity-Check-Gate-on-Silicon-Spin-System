@@ -13,7 +13,7 @@ Hamiltonian, which we refer to as modulated GRAPE.
 For further information, you can read our research paper.(paper link)
 
 We set the maximum control amplitude which is the magnetic field in our case in the range of mT and we ran the algorithm
-for 1, 10, 100 microsecodns. For each evolution time, the minimum time resolution was maintained at 10 picoseconds by
+for 1, 10, 100 microseconds. For each evolution time, the minimum time resolution was maintained at 10 picoseconds by
 allocating the appropriate number of time slots and to be able to run the algorithm for such a small time resolution, we executed it on the 
 HPC -High Performance Computing- cluster. As a result, we could have the perfect gate fidelity for 10 microseconds evolution time for the XX gate. 
 We then tried to find a more accurate solution for the XX gate and we decided to design these gate as a nuclear gate so that we can use the higher control 
