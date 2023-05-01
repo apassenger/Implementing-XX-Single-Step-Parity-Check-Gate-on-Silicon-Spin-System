@@ -20,3 +20,14 @@ We then tried to find a more accurate solution for the XX gate and we decided to
 amplitude and we can have a lower evolution time for our XX gate. We set the evolution time to 4 microseconds for the XX gate. 
 We set upper and lower bounds to 40 mT for the control field and we used 400000 time slots which correspond to every 10 picoseconds for a pulse. We run
 the algorithm for every frequency in the system and the algorithm was able to find XX parity check gates with a single pulse with an accuracy of 0.999.
+
+For citation:
+
+@software{Ustun_Implementing-XX-Single-Step-Parity-Check-Gate-on-Silicon-Spin-System_2023,
+author = {Üstün, Gözde and Morello, Andrea and Devitt, Simon and Pitchford,  Alexander},
+month = apr,
+title = {{Implementing-XX-Single-Step-Parity-Check-Gate-on-Silicon-Spin-System}},
+url = {https://github.com/apassenger/Implementing-XX-Single-Step-Parity-Check-Gate-on-Silicon-Spin-System},
+version = {1.0.0},
+year = {2023}
+}
