@@ -19,7 +19,7 @@ HPC -High Performance Computing- cluster. As a result, we could have the perfect
 We then tried to find a more accurate solution for the XX gate and we decided to design these gate as a nuclear gate so that we can use the higher control 
 amplitude and we can have a lower evolution time for our XX gate. We set the evolution time to 4 microseconds for the XX gate. 
 We set upper and lower bounds to 40 mT for the control field and we used 400000 time slots which correspond to every 10 picoseconds for a pulse. We run
-the algorithm for every frequency in the system and the algorithm was able to find XX parity check gates with a single pulse with an accuracy of 0.999.
+the algorithm for every frequency in the system and the algorithm was able to find XX parity check gates with a single pulse with an accuracy of 0.9999.
 
 For citation:
 
