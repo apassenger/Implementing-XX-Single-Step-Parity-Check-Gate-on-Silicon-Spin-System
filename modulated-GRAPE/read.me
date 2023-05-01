@@ -26,4 +26,6 @@ with a proper radial frequency. This frequency can be defined as the energy diff
 if we are driving in resonance. After specifying the frequency that we want to drive the system, we modulate the control 
 Hamiltonian with a cosine (or sine) function for each time slot and run the algorithm for these control Hamiltonians. 
 For modulated GRAPE, we take into account the cosine term and modulate the control Hamiltonian for each time slot with an appropriate radial frequency. 
-In this method, we only use the control Hamiltonian for either the x or y direction, not both. The important point is that the GRAPE algorithm receives a list of control Hamiltonians as a parameter, and since we are modulating for each time slot, the control is now a list of lists.
+In this method, we only use the control Hamiltonian for either the x or y direction, not both.
+The important point is that the GRAPE algorithm receives a list of control Hamiltonians as a parameter, 
+and since we are modulating for each time slot, the control is now a list of lists.
