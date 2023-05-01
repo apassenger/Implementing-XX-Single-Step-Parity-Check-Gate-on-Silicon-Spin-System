@@ -14,7 +14,9 @@ Regarding the pulse type, as defined in the code:
 
     A ZERO pulse will give a smoother pulse.
     A SINE type pulse is better for one- and two-qubit gates if we have a good prediction for the possible pulse time.
-    An RND type pulse is good for more sophisticated pulse and exploring the space widely. However, we need to carefully define the experimental parameters, such as the minimum and maximum amplitude, because the RND pulse can be really wild.
+    An RND type pulse is good for more sophisticated pulse and exploring the space widely. However, we need to carefully define the experimental
+    
+parameters, such as the minimum and maximum amplitude, because the RND pulse can be really wild.
 
 Regarding experimental parameters, these include offset, minimum and maximum control amplitude, frequencies of the system, driving off and on resonance, phase option, and so on. All of these things can change and yield different results.
 
@@ -24,4 +26,3 @@ if we are driving in resonance. After specifying the frequency that we want to d
 Hamiltonian with a cosine (or sine) function for each time slot and run the algorithm for these control Hamiltonians. 
 For modulated GRAPE, we take into account the cosine term and modulate the control Hamiltonian for each time slot with an appropriate radial frequency. 
 In this method, we only use the control Hamiltonian for either the x or y direction, not both. The important point is that the GRAPE algorithm receives a list of control Hamiltonians as a parameter, and since we are modulating for each time slot, the control is now a list of lists.
-For modulated GRAPE, we take into account the cosine term and modulate the control Hamiltonian for each time slot with an appropriate radial frequency. In this method, we only use the control Hamiltonian for either the x or y direction, not both. The important point is that the GRAPE algorithm receives a list of control Hamiltonians as a parameter, and since we are modulating for each time slot, the control is now a list of lists.Here, the number of control Hamiltonians is equal to the number of time slots.
