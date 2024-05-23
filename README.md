@@ -23,15 +23,19 @@ the algorithm for every frequency in the system and the algorithm was able to fi
 
 For citation:
 
-@misc{üstün2023singlestep,
-      title={Single-Step Parity Check Gate Set for Quantum Error Correction}, 
-      author={Gözde Üstün and Andrea Morello and Simon Devitt},
-      year={2023},
-      eprint={2306.08849},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph}
+@article{Üstün_2024,
+doi = {10.1088/2058-9565/ad473c},
+url = {https://dx.doi.org/10.1088/2058-9565/ad473c},
+year = {2024},
+month = {may},
+publisher = {IOP Publishing},
+volume = {9},
+number = {3},
+pages = {035037},
+author = {Gözde Üstün and Andrea Morello and Simon Devitt},
+title = {Single-step parity check gate set for quantum error correction},
+journal = {Quantum Science and Technology}
 }
-
 and
 
 @software{Ustun_Implementing-XX-Single-Step-Parity-Check-Gate-on-Silicon-Spin-System_2023,
